@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <app-message></app-message> 
+    <h1>Let's go somewhere</h1>
+    <!-- <app-message></app-message>  -->
+    <hr>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -15,4 +18,3 @@ export default {
 <style>
 </style>
 
-// this is just a test
